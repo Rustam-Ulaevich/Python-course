@@ -1,25 +1,25 @@
-age = input('Enter your age: ')
-print(age)
+# import turtle
 
-print(True)
+# t = turtle.Turtle()
+# s = turtle.Screen()
+# s.bgcolor('green')
+# t.width(2)
+# t.speed(50)
+# col=('white','blue','red')
+# for i in range(500):
+#     t.pencolor(col[i%3])
+#     t.forward(i*4)
+#     t.right(121)
 
-# Function
+# turtle.done()
 
-def my_func(a,b):
-  a = a + 1
-  c = a + b
-  return c
 
-print(my_func(1, 2))
+# print(10>3)
+# print(type('long string' < 'long'))
+# print(bool(1))
 
-print(type(2))
 
-name = 'Rustam'
-nick = 'Super'
+print('10' > 5)
 
-print(name.upper())
-print(name  + " " +  nick)
 
-print(1,'Fuck',False)
 
-# print(dir(__builtins__))
